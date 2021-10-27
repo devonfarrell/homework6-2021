@@ -4,44 +4,42 @@ body {
     background-color:  #f1f1f1;
 	}
 
-	header{
+header{
 		display: flex;
 		flex-direction: column;
     	align-items: center;
-    	justify-content: center;
 	}
 
-	.nav_links{
+.nav_links{
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 	}
 
-	.nav_item a{
-		display: flex;
-		padding: 0px;
+.nav_item a{
     	color: #0000EE;
 	}
 
-	.nav_item a:visited{
+.nav_item a:visited{
     	color: #0000EE;
   	}
 
 
-	.pricing {
+.pricing {
 		display: flex;
     	align-items: center;
     	justify-content: center;
     	flex-wrap: wrap;
 	}
 
-	.card {
+.card {
 		display: flex;
 		flex-basis: 450px;
 		flex-direction: column;
 
 	}
 
-	.card > header{
+.card > header{
 		background-color: #288088;
     	border: 2px solid #45ADAD;
     	padding-top: 20px;
@@ -49,42 +47,42 @@ body {
     	border-radius: 7px 7px 0 0;
 	}
 
-	.gallery{
+.gallery{
 		display: flex;
     	flex-wrap: wrap;
     	justify-content: center;
 		align-items: center;
 	}
 
-	.gallery > img{
+.gallery > img{
 		border: 10px solid #50C7C7;
 		margin: 10px;
 		width: 300px;
 	}
 
-	#logo{
+#logo{
 		animation-name: logo;
 		animation-duration: 5s;
 	  }
 
-	@keyframes logo{
+@keyframes logo{
 		from {opacity: 0.0; width: 50px;}
 		to {opacity: 1.0; width: 425px;} 
 	  }
 
-	@-webkit-keyframes logo{
+@-webkit-keyframes logo{
 		from {opacity: 0.0; width: 50px;}
 		to {opacity: 1.0; width: 425px;}
 
 	  }
 
-	.footer{
+.footer{
 		justify-content: center;
     	align-items: center;
 	  }
 
 
-	@media screen and (min-width: 850px){
+@media screen and (min-width: 850px){
 		header {
 		  display: flex;
 		  flex-direction: row;
@@ -120,13 +118,13 @@ body {
 
 	}
 
-	@media screen and (prefers-reduced-motion: reduce){
+@media screen and (prefers-reduced-motion: reduce){
 		#logo{
 		  animation: none;
 		}
 	  }
 
-	@media print{
+@media print{
 
 		body {
 		  background-image: none;
