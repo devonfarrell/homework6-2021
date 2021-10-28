@@ -16,12 +16,9 @@ header{
 		justify-content: space-between;
 	}
 
-.nav_item a{
-    	color: #0000EE;
-	}
 
 .nav_item a:visited{
-    	color: #0000EE;
+    	color: blue;
   	}
 
 
@@ -42,8 +39,7 @@ header{
 .card > header{
 		background-color: #288088;
     	border: 2px solid #45ADAD;
-    	padding-top: 20px;
-    	padding-bottom: 20px;
+    	padding: 20px 0px;
     	border-radius: 7px 7px 0 0;
 	}
 
@@ -98,18 +94,18 @@ header{
 
 		} 
 		
-		.card h3{
+		/* .card h3{
 			text-align: left;
-		}
+		} */
 
 		.nav_links{
 		  display: flex;
 		  flex-direction: row;
 		}
 
-		.nav_item a{
-			padding: 10px;
-		}
+		/* .nav_item a{ */
+			/* padding: 10px; */
+		/* } */
 
 		.card{
 			display: flex;
